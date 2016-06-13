@@ -1,3 +1,8 @@
+#Yasin Gamieldien
+#Python 2/3 compatible
+#Requires Numpy
+#Free to use, alter, and distribute
+
 import numpy as np
 
 def stl(path):

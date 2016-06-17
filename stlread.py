@@ -3,6 +3,8 @@
 #Requires Numpy, Pandas
 #Free to use, alter, and distribute
 
+#Purpose: reads binary STL files and returns faces, normals, vertices, etc.
+
 import numpy as np
 import pandas as pd
 

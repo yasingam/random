@@ -77,7 +77,7 @@ def unique_vertices(path):
     """
     x, y, z = stl_xyz(path)
 
-    stl_data = np.column_stack((xi, yi, zi))
+    stl_data = np.column_stack((x, y, z))
     stl_pandas = pd.DataFrame(stl_data)
 
     stl_unique = np.array(stl_pandas.drop_duplicates())

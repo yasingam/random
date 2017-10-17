@@ -1,13 +1,3 @@
-"RUST SYNTAX HIGHLIGHTING
-"follow instructions on: http://blog.awk.ninja/2015/08/rust-syntax-highlighting-in-vim.html
-set nocompatible
-filetype off
-set rtp+=~/.vim/bundle/Vundle.vim
-call vundle#begin()
-Plugin 'rust-lang/rust.vim'
-call vundle#end()
-filetype plugin indent on
-
 "USER INTERFACE
 "line numbers
 set nu
